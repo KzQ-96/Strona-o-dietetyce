@@ -1,0 +1,40 @@
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav.nav {
+    display: block;
+    border-bottom: 1px solid goldenrod;
+    font-weight: bold;
+    position: fixed;
+    width: 100vw;
+}
+
+.nav_container {
+    max-width: 1200px;
+    height: 12vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav_logo {
+    font-family: 'Trade Winds', cursive;
+}
+
+nav .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.nav_submenu {
+    display: none;
+}

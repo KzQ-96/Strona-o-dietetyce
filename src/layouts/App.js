@@ -10,17 +10,13 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
-          <main>
               {<Navigation />}
               <section className="blog">
                 {<Page />}
               </section>
-          </main>
           <footer>
             {<Footer />}
           </footer>
-        </div>
       </Router>
     );
   }
